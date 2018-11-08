@@ -3,7 +3,6 @@ import numpy as np
 import time
 
 def main():
-	capture	= cv2.VideoCapture(0)
 	width = 600
 	height = 337
 	dim = (width, height)
@@ -24,7 +23,6 @@ def main():
 		count+=1
 
 	cv2.destroyAllWindows()
-	cap.release()
 
 if __name__ == '__main__':
 	main()
