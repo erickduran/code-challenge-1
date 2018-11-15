@@ -105,3 +105,8 @@ venv.bak/
 
 # mac stuff
 .DS_Store
+
+# my stuff
+utils.py
+
+res/
